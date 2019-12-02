@@ -6,6 +6,7 @@ while True:
     num_1 = input("Digite um número qualquer:")
     num_2 = input("Digite outro número qualquer:")
 
+    # Confere se o número digitado pelo usuário é válido.
     if not num_1.isnumeric() or not num_2.isnumeric():
         print("Você precisa digitar um número válido.")
         continue
@@ -26,9 +27,10 @@ while True:
     else:
         print(num_1 / num_2)
 
+    # Opção para sair ou não do programa.
     sair = input("Deseja sair do programa (Sim / Não) ?")
     if sair == 'Sim':
-        print("FIM")
+        print("Programa finalizado pelo usuário.")
         break
     else:
         continue
