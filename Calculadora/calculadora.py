@@ -1,7 +1,6 @@
 """
-Código básico para elaboração de cálculos matemáticos simples.
+Pequeno teste para realizar cálculos
 """
-
 while True:
     print()
     num_1 = input("Digite um número qualquer:")
@@ -27,5 +26,9 @@ while True:
     else:
         print(num_1 / num_2)
 
-    print("FIM")
-    break
+    sair = input("Deseja sair do programa (Sim / Não) ?")
+    if sair == 'Sim':
+        print("FIM")
+        break
+    else:
+        continue
