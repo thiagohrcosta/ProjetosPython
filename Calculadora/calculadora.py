@@ -1,5 +1,5 @@
 """
-Pequeno teste para realizar cálculos
+Código básico para elaboração de cálculos matemáticos. Foi adicionada opção para sair do programa.
 """
 while True:
     print()
